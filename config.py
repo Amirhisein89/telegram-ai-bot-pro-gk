@@ -1,0 +1,9 @@
+BOT_TOKEN = ("8219234407:AAEXddQlgEwvICZnOGdL0Bn4gTyGM-Jtvgc")
+
+ADMIN_ID = 6931787085
+
+GROQ_API_KEY = "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"
+
+SUBSCRIPTION_DAYS = 7
+
+DB_NAME = "bot_database.db"
