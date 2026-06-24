@@ -1,8 +1,10 @@
-BOT_TOKEN = ("8132634584:AAFwvlqqhxUohYxNyxCvKBWTc9tbz00fO4I")
+import os
 
-ADMIN_ID = 6931787085
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-GROQ_API_KEY =("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")
+ADMIN_ID = int(os.environ.get("ADMIN_ID", "0"))
+
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
 SUBSCRIPTION_DAYS = 7
 
