@@ -1,7 +1,6 @@
-import os
-BOT_TOKEN =os.getenv("bot_token")
+BOT_TOKEN =("8132634584:AAFwvlqqhxUohYxNyxCvKBWTc9tbz00fO4I")
 
-ADMIN_ID = int(os.getenv("Admin_Id")
+ADMIN_ID = 6931787085
 
 GROQ_API_KEY = ("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")
 
